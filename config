@@ -1,0 +1,5 @@
+# visit https://github.com/glotcode/glot/tree/master/api_docs/run
+
+export API_TOKEN=$(cat "$HOME/Library/Application Support/local.api/glot.io/api-token")
+export TOKEN="Authorization: Token $API_TOKEN"
+export HEADER="Content-type: application/json"
